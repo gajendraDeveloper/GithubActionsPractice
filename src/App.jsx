@@ -22,7 +22,7 @@ function App() {
     <>
       <Suspense fallback={<Loader/>}>
       <ScrollToTop />
-      <div>Hi This side gajendra</div>
+      {/* <div>Hi This side gajendra</div> */}
         <Routes>
           <Route path="/" element={<Login />} />
           <Route path="/signup" element={<SignUp />} />
