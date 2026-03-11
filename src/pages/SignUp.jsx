@@ -39,7 +39,7 @@ const SignUp = () => {
         </div>
 
         <div className="w-full md:w-1/2 flex flex-col justify-center p-6 sm:p-10 gap-6">
-          <h1 className="text-2xl sm:text-3xl font-bold italic bg-linear-to-r from-orange-400 to-pink-500 bg-clip-text text-transparent text-center">
+          <h1 className="text-2xl sm:text-3xl font-bold italic bg-linear-to-r from-[#c1a07b] to-[#43312d] bg-clip-text text-transparent text-center">
           Create Your Account!
           </h1>
 
@@ -83,17 +83,17 @@ const SignUp = () => {
               type="submit"
               styleLabel="text-lg text-white"
               styleButton="
-                w-full py-2 bg-gradient-to-r from-orange-400 to-pink-500
+                w-full py-2 bg-gradient-to-r from-[#c1a07b] to-[#43312d]
                 rounded-xl transition-transform duration-300 hover:scale-105 cursor-pointer
               "
               styleContainer="flex justify-center"
             />
              <CommonButton
-              label="Login"
+              label="Already a Member? Log In"
               type="button"
-              styleLabel="text-xs text-white"
+              styleLabel="text-lg text-white"
               styleButton="
-                w-24 py-2 bg-gradient-to-r from-purple-400 to-indigo-500
+                w-full py-2 bg-gradient-to-r from-[#95b0b7] to-[#795360] 
                 rounded-xl transition-transform duration-300 hover:scale-105 cursor-pointer
               "
               styleContainer="flex justify-center"

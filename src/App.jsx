@@ -19,10 +19,9 @@ const Home = lazy(() => import("./pages/Home"));
 
 function App() {
   return (
-    <>
+    <>  
       <Suspense fallback={<Loader/>}>
       <ScrollToTop />
-      {/* <div>Hi This side gajendra</div> */}
         <Routes>
           <Route path="/" element={<Login />} />
           <Route path="/signup" element={<SignUp />} />
